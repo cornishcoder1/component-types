@@ -1,9 +1,10 @@
 import './App.css';
-import FunctionalGreeting from "./components/FunctionalGreeting";
-// import StatefulGreeting from "./components/StatefulGreeting";
-// import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
-import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
-import HooksCounter from "./components/HooksCounter";
+// import FunctionalGreeting from "./components/FunctionalGreeting";
+// // import StatefulGreeting from "./components/StatefulGreeting";
+// // import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
+// import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
+// import HooksCounter from "./components/HooksCounter";
+import EventBinding from './components/EventBinding';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <FunctionalGreeting name="John" /> */}
       {/* <StatefulGreetingWithCallback name="Joshua" greeting="I'm a stateful class component" /> */}
       {/* <HooksCounter name="Mike" /> */}
-      { <StatefulGreetingWithPrevState/> }
+      {/* { <StatefulGreetingWithPrevState/> } */}
+      <EventBinding />
     </div>
   );
 }
