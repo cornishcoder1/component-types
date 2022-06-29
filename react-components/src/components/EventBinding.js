@@ -9,12 +9,12 @@ class EventBinding extends React.Component {
             buttonText: "Exit",
         };
     }
-    
-    handleClick() {
+    //Below, the event handler is defined as an arrow function (reccomended way to bind event handlers in class components)
+    handleClick = () {
         this.setState({
             introduction: "Goodbye!",
         });
-        console.log(this.state.introduction);
+        console.log(this);
     }
 
     render() {
@@ -23,7 +23,7 @@ class EventBinding extends React.Component {
                 <h1>
                     {this.state.introduction} {this.props.greeting}
                 </h1>
-                <button onClick={() => this.handleClick()}>
+                <button onClick={this.handleClick()}>
                     {this.state.buttonText}
                 </button>
             </div>

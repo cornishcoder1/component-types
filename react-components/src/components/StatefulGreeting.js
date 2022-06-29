@@ -18,7 +18,7 @@ class StatefulGreeting extends React.Component {
     });
     console.log(this.state.introduction)
   }
-
+// Below, an arrow function is used in the render method to bind the event handler to the class component
   render() {
     return (
       <div>
