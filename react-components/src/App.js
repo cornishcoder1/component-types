@@ -1,10 +1,12 @@
 import './App.css';
 // import FunctionalGreeting from "./components/FunctionalGreeting";
-import StatefulGreeting from "./components/StatefulGreeting";
+// import StatefulGreeting from "./components/StatefulGreeting";
 // // import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 // import HooksCounter from "./components/HooksCounter";
 // import EventBinding from './components/EventBinding';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       {/* <HooksCounter name="Mike" /> */}
       {/* { <StatefulGreetingWithPrevState/> } */}
       {/* <EventBinding /> */}
-      <StatefulGreeting />
+      {/* <StatefulGreeting /> */}
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={false} />
     </div>
   );
 }
