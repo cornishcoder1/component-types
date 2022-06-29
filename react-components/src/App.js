@@ -5,8 +5,9 @@ import './App.css';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 // import HooksCounter from "./components/HooksCounter";
 // import EventBinding from './components/EventBinding';
-import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+// import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+// import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import NestingComponents from './components/NestingComponents';
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
       {/* { <StatefulGreetingWithPrevState/> } */}
       {/* <EventBinding /> */}
       {/* <StatefulGreeting /> */}
-      <ConditionalRenderingClass />
-      <ConditionalRenderingFunctional connected={false} />
+      {/* <ConditionalRenderingClass /> */}
+      {/* <ConditionalRenderingFunctional connected={false} /> */}
+      <NestingComponents />
+
     </div>
   );
 }
