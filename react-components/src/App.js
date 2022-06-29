@@ -7,7 +7,9 @@ import './App.css';
 // import EventBinding from './components/EventBinding';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
-import NestingComponents from './components/NestingComponents';
+// import NestingComponents from './components/NestingComponents';
+// import MethodsAsPropsChild from './components/MethodsAsPropsChild';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       {/* <StatefulGreeting /> */}
       {/* <ConditionalRenderingClass /> */}
       {/* <ConditionalRenderingFunctional connected={false} /> */}
-      <NestingComponents />
+      {/* <NestingComponents /> */}
+      <MethodsAsPropsParent />
+      {/* <MethodsAsPropsChild /> */}
 
     </div>
   );
