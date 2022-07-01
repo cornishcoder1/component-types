@@ -10,7 +10,8 @@ import './App.css';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsChild from './components/MethodsAsPropsChild';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
-import RenderingLists from './components/RenderingLists';
+// import RenderingLists from './components/RenderingLists';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
       {/* <MethodsAsPropsChild /> */}
-      <RenderingLists />
+      {/* <RenderingLists /> */}
+      <LifeCyclesCDM />
 
     </div>
   );
