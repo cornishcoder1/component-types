@@ -31,7 +31,7 @@ HandleComment = (event) => {
 }
 
 HandleSubmit = (event) => {
-    event.preventDefault();
+    event.prevent.Default();
     console.log(this.state)
 }
 
