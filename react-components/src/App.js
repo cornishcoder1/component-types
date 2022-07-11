@@ -1,4 +1,9 @@
 import './App.css';
+// import UseEffectCounter from './components/UseEffectCounter';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+// import UseStateWithObjects from './components/UseStateWithObjects';
+// import UseStateWithArrays from './components/UseStateWithArrays';
+// import ControlledFormHooks from './components/ControlledFormHooks';
 // import FunctionalGreeting from "./components/FunctionalGreeting";
 // import StatefulGreeting from "./components/StatefulGreeting";
 // // import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
@@ -15,7 +20,8 @@ import './App.css';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import ControlledForm from './components/ControlledForm';
-import UncontrolledForm from './components/UncontrolledForm';
+// import UncontrolledForm from './components/UncontrolledForm';
+
 
 
 function App() {
@@ -23,7 +29,7 @@ function App() {
     <div className="App">
       {/* <FunctionalGreeting name="John" /> */}
       {/* <StatefulGreetingWithCallback name="Joshua" greeting="I'm a stateful class component" /> */}
-      {/* <HooksCounter name="Mike" /> */}
+      {/* <HooksCounter/> */}
       {/* { <StatefulGreetingWithPrevState/> } */}
       {/* <EventBinding /> */}
       {/* <StatefulGreeting /> */}
@@ -37,7 +43,12 @@ function App() {
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
       {/* <ControlledForm /> */}
-      <UncontrolledForm />
+      {/* <UncontrolledForm /> */}
+      {/* <ControlledFormHooks /> */}
+      {/* <UseStateWithArrays /> */}
+      {/* <UseStateWithObjects /> */}
+      {/* <UseEffectCounter /> */}
+      <UseEffectCounterContainer />
 
     </div>
   );
