@@ -1,6 +1,6 @@
 import './App.css';
 // import UseEffectCounter from './components/UseEffectCounter';
-import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+// import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 // import UseStateWithObjects from './components/UseStateWithObjects';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import ControlledFormHooks from './components/ControlledFormHooks';
@@ -21,6 +21,7 @@ import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import ControlledForm from './components/ControlledForm';
 // import UncontrolledForm from './components/UncontrolledForm';
+import HTTPRequests from './components/HTTPRequests';
 
 
 
@@ -48,7 +49,8 @@ function App() {
       {/* <UseStateWithArrays /> */}
       {/* <UseStateWithObjects /> */}
       {/* <UseEffectCounter /> */}
-      <UseEffectCounterContainer />
+      {/* <UseEffectCounterContainer /> */}
+      <HTTPRequests />
 
     </div>
   );
